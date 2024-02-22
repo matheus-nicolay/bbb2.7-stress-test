@@ -32,6 +32,11 @@ You can get these values by running `bbb-conf --secret` on your BBB server.
 
 4) Run `make stress` to launch the test suite
 
+## Issues
+- BigBlueButton main language needs to be english
+- Docker and docker-compose needs to be installed in the running machine as normal user (not sudo)
+- `make stress` command needs to be running as normal user (not sudo)
+
 ## Contributing
 
 This project is intended to be community-driven, so please, do not hesitate to
